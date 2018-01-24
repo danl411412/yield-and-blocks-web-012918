@@ -1,5 +1,5 @@
 def hello_t(arr)
-  if block_give?
+  if block_given?
     i = 0
 
     while i < arr.length
@@ -7,7 +7,7 @@ def hello_t(arr)
       i += 1
     end
     arr
-  else 
+  else
     puts "Hey! No block was given!"
   end
 end
